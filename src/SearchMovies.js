@@ -21,6 +21,8 @@ export default function SearchMovies() {
       console.log(err);
     }
   };
+
+ 
   
   //returns a form with a label, an input, a button as well as the MovieCard component. 
   //the input has a "value" of query which is part of the state and an "onChange" which implements the setQuery to change the state
